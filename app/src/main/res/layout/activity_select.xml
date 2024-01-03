@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Select">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="580dp"
+
+        android:background="@drawable/fruits"
+        tools:srcCompat="@drawable/fruits" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="212dp"
+
+        android:background="@drawable/animals"
+        tools:srcCompat="@drawable/animals" />
+
+    <Button
+        android:id="@+id/fruitbutton"
+        android:layout_width="173dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="447dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="FRUITS"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/animalsbutton"
+        android:layout_width="173dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="102dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="ANIMALS"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
